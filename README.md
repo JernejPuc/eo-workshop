@@ -54,7 +54,7 @@ $ conda install -c conda-forge eo-learn
 ```
 
 **Note:** On Windows, at least, you may experience some issues relating to the `libssl-1_1-x64.dll` and `libcrypto-1_1.dll` files:
-- If prevented from updating or downloading new packages, the [solution](https://github.com/conda/conda/issues/9003#issuecomment-516499958) may be to overwrite the instance of `libssl-1_1-x64.dll` in `Anaconda3\Library\bin` with the instance from `Anaconda3/DLLs`.
+- If prevented from updating or downloading new packages, the [solution](https://github.com/conda/conda/issues/9003#issuecomment-516499958) may be to overwrite the instance of `libssl-1_1-x64.dll` in `Anaconda3\Library\bin` with the instance from `Anaconda3\DLLs`.
 - If encountering `"ImportError: DLL load failed while importing _ssl: The specified module could not be found."`, for example, when running `$ jupyter notebook` or `$ python -c "import ssl; print('ok')"` from your environment, the [solution](https://bugs.python.org/issue39344#msg360094) may be to copy the `libcrypto-1_1.dll` and `libssl-1_1.dll` files from `Anaconda3\Library\bin` to `Anaconda3\envs\myenv\DLLs`.
 
 
@@ -107,10 +107,7 @@ Download this repository by clicking the green *Clone or download* button at the
 
 To confirm that everything has installed correctly, you can navigate to the directory, where you have extracted the repository to, run `$ jupyter notebook` within your environment, and skim through [notebook 2](https://github.com/JernejPuc/eo-workshop/blob/master/eow-part-2-eo-learn-basics.ipynb).
 
-Afterwards, `lightgbm` installation can be verified with:
-```bash
-$ python -c "import lightgbm; print('ok')"
-```
+Afterwards, `lightgbm` installation can be verified with `$ python -c "import lightgbm; print('ok')"`.
 
 The data required for the rest of the workshop will be made available shortly, before the workshop is officially conducted.
 
