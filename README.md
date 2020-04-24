@@ -107,7 +107,7 @@ Download this repository by clicking the green *Clone or download* button at the
 
 To confirm that everything has installed correctly, you can navigate to the directory, where you have extracted the repository to, run `$ jupyter notebook` within your environment, and skim through [notebook 2](https://github.com/JernejPuc/eo-workshop/blob/master/eow-part-2-eo-learn-basics.ipynb). Afterwards, `lightgbm` installation can be verified with `$ python -c "import lightgbm; print('ok')"`.
 
-The data required for the rest of the workshop can be downloaded from eo-learn.sentinel-hub.com.s3.eu-central-1.amazonaws.com/eow_material.zip.
+The data required for the rest of the workshop can be downloaded from http://eo-learn.sentinel-hub.com.s3.eu-central-1.amazonaws.com/eow_material.zip.
 
 
 
