@@ -4,7 +4,7 @@ This workshop focuses on a particular problem in the field of Earth observation 
 
 It is based on one of the examples from the developer's [public repository](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-map) and simulates a full processing pipeline.
 
-General instructions before starting the workshop are written below. Once the required data is made available, you will be able to run through it by yourself by following the notebooks in this repository.
+General instructions before starting the workshop are written below. Once the contents are uploaded in full, you will be able to run through it by yourself by following the notebooks in this repository.
 
 
 
@@ -105,17 +105,15 @@ Finally, `eo-learn` should already include `lightgbm`, an implementation of [Gra
 
 Download this repository by clicking the green *Clone or download* button at the top of the page.
 
-To confirm that everything has installed correctly, you can navigate to the directory, where you have extracted the repository to, run `$ jupyter notebook` within your environment, and skim through [notebook 2](https://github.com/JernejPuc/eo-workshop/blob/master/eow-part-2-eo-learn-basics.ipynb).
+To confirm that everything has installed correctly, you can navigate to the directory, where you have extracted the repository to, run `$ jupyter notebook` within your environment, and skim through [notebook 2](https://github.com/JernejPuc/eo-workshop/blob/master/eow-part-2-eo-learn-basics.ipynb). Afterwards, `lightgbm` installation can be verified with `$ python -c "import lightgbm; print('ok')"`.
 
-Afterwards, `lightgbm` installation can be verified with `$ python -c "import lightgbm; print('ok')"`.
-
-The data required for the rest of the workshop will be made available shortly, before the workshop is officially conducted.
+The data required for the rest of the workshop can be downloaded from eo-learn.sentinel-hub.com.s3.eu-central-1.amazonaws.com/eow_material.zip.
 
 
 
 ## Contact
 
-For any questions or issues related to the workshop, you can raise an [issue](https://github.com/JernejPuc/eo-workshop/issues) within this repository.
+For any questions or issues related to the workshop, you can raise an [issue](https://github.com/JernejPuc/eo-workshop/issues) within this repository or send me an [e-mail](mailto:jernej.puc@sinergise.com).
 
 If you have questions regarding `eo-learn` itself or its use cases, you are welcome to send your feedback to its authors, the EO Research team at Sinergise, by:
 - raising an [issue](https://github.com/sentinel-hub/eo-learn/issues) on GitHub,
