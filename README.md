@@ -4,7 +4,7 @@ This workshop focuses on a particular problem in the field of Earth observation 
 
 It is based on one of the examples from the developer's [public repository](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-map) and simulates a full processing pipeline.
 
-General instructions before starting the workshop are written below. Once the contents are uploaded in full, you will be able to run through it by yourself by following the notebooks in this repository.
+General instructions before starting the workshop are written below. You can run through it by yourself by following the notebooks in this repository.
 
 
 
@@ -107,7 +107,7 @@ Download this repository by clicking the green *Clone or download* button at the
 
 To confirm that everything has installed correctly, you can navigate to the directory, where you have extracted the repository to, run `$ jupyter notebook` within your environment, and skim through [notebook 2](https://github.com/JernejPuc/eo-workshop/blob/master/eow-part-2-eo-learn-basics.ipynb). Afterwards, `lightgbm` installation can be verified with `$ python -c "import lightgbm; print('ok')"`.
 
-The data required for the rest of the workshop can be downloaded from http://eo-learn.sentinel-hub.com.s3.eu-central-1.amazonaws.com/eow_material.zip.
+The data required for the rest of the workshop can be downloaded from http://eo-learn.sentinel-hub.com.s3.eu-central-1.amazonaws.com/eow_material.zip (1.2 GB).
 
 
 
